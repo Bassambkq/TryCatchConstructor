@@ -19,7 +19,6 @@ public class TryCatchConstructor {
         }
 
         throw new IllegalArgumentException(
-            "Invalid type. Expected: " + type.getSimpleName()
-        );
+            "Not excpected type " + type.getSimpleName());
     }
 }
